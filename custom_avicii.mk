@@ -13,9 +13,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/avicii/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_avicii
+PRODUCT_NAME := custom_avicii
 PRODUCT_DEVICE := avicii
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -30,3 +30,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=avicii \
     SystemName=Nord \
     SystemDevice=avicii
+
+# ASCP Configuration Flags
+ASCP_MAINTAINER := Kaveer
+ASCP_OFFICIAL := true
