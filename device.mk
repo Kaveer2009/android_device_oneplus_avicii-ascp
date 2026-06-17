@@ -497,3 +497,6 @@ $(call inherit-product, vendor/oneplus/avicii/avicii-vendor.mk)
 
 # Inherit from the OnePlus Camera  makefile.
 $(call inherit-product, vendor/oneplus/camera/config.mk)
+
+# Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
