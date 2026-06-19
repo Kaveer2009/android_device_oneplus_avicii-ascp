@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# Copyright (C) 2024-2025 Android Open Source Project
-# Copyright (C) 2024-2025 Kaveer Rana
+# Copyright (C) Android Open Source Project
+# Copyright (C) 2024-2025 Sreeshankar K
+# Copyright (C) 2026 Kaveer Rana
 
 # ─── Colors & Styles ──────────────────────────────────────────────────────────
 R="\033[1;31m"
